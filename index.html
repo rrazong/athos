@@ -3,6 +3,7 @@
     <head>
     <meta charset="UTF-8">
     <title>Athos Frontend Exercise</title>
+    <link rel="stylesheet" type="text/css" href="athos.css">
 </head>
 
 <body>
@@ -10,79 +11,103 @@
     <header>
         <h1>Blog Posts</h1>
     </header>
-    <ul>
-        <li>
-            <a>A link to a blog post</a>
-            <time>Mar 1st, 2016/time>
-        </li>
-        <li>
-            <a>A link to a blog post</a>
-            <time>Feb 29th, 2016/time>
-        </li>
-        <li>
-            <a>A link to a blog post</a>
-            <time>Feb 26th, 2016/time>
-        </li>
-        <li>
-            <a>A link to a blog post with a longer title</a>
-            <time>Feb 25th, 2016/time>
-        </li>
-    </ul>
+    <section>
+        <ul>
+            <li>
+                <a href="">A link to a blog post</a>
+                <time>Mar 1st, 2016</time>
+            </li>
+            <li>
+                <a href="">A link to a blog post</a>
+                <time>Feb 29th, 2016</time>
+            </li>
+            <li>
+                <a href="">A link to a blog post</a>
+                <time>Feb 26th, 2016</time>
+            </li>
+            <li>
+                <a href="">A link to a blog post with a longer title</a>
+                <time>Feb 25th, 2016</time>
+            </li>
+        </ul>
+    </section>
     <footer>
-        <a href="">View More Posts</a>
-        <img src=""/>
+        <ul>
+            <li>
+                <a href="">View More Posts</a>
+            </li>
+        </ul>
+        <img src="img/icon_rss.png"/>
     </footer>
 </div>
 <div id="learnmore">
     <header>
         <h1>Learn more about Athos</h1>
     </header>
-    <div id="videoslideshow">
-        <video width="640" height="480" controls preload="preload">
-            <source src="https://www.liveathos.com/videos/launch.mp4" type="video/mp4">
-            Video tag not supported on your browser.
-        </video>
-        <p>Lorem ipsum dolor sit amet, consecetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolre magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco nisi.</p>
-        <p class="author">Bob Jones</p>
-        <p class="location">New York, USA</p>
-    </div>
-    <nav>
-        <button name="prev">&lt;</button>
-        <button name="next">&gt;</button>
-    </nav>
+    <section>
+        <div id="videoslideshow">
+            <div class="videoslide">
+                <video width="488" height="275" controls preload="preload" poster="img/video_poster.png">
+                    <source src="https://www.liveathos.com/videos/launch.mp4" type="video/mp4">
+                    Video tag not supported on your browser.
+                </video>
+                <p class="videodescription">Lorem ipsum dolor sit amet, consecetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolre magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco nisi.</p>
+                <p class="videoauthor">Bob Jones</p>
+                <p class="videolocation">New York, USA</p>
+            </div>
+        </div>
+        <nav>
+            <button name="prev">
+                <img src="img/button_page_left_disabled.png" />
+            </button>
+            <button name="next">
+                <img src="img/button_page_right.png" />
+            </button>
+        </nav>
+    </section>
 </div>
 <div id="newsletter">
     <header>
         <h1>Newsletter</h1>
     </header>
-    <form>
-        <p>Get new web templates report and design news.</p>
-        <input type="email" placeholder="Email Address">
-        <button value="subscribe" type="submit">Subscribe</button>
-    </form>
+    <section>
+        <form>
+            <p>Get new web templates report and design news.</p>
+            <input type="email" placeholder="Email Address">
+            <button value="subscribe" type="submit">Subscribe</button>
+        </form>
+    </section>
     <footer>
-        <a href="">View Sample Newsletter</a>
-        <a href="">Privacy Policy</a>
+        <ul>
+            <li>
+                <a href="">View Sample Newsletter</a>
+            </li>
+            <li>
+                <a href="">Privacy Policy</a>
+            </li>
+        </ul>
     </footer>
 </div>
 <div id="connect">
     <header>
         <h1>Connect with Us</h1>
     </header>
-    <ul>
-        <li>
-            <img src=""/>
-            <a href="">Be a Fan on Facebook</a>
-        </li>
-        <li>
-            <img src=""/>
-            <a href="">Follow Us on Twitter</a>
-        </li>
-        <li>
-            <img src=""/>
-            <a href="">Goggle+</a>
-        </li>
-    </ul>
+    <section>
+        <ul>
+            <li>
+                <img src="img/icon_fb.png"/>
+                <a href="">Be a Fan on Facebook</a>
+            </li>
+            <li>
+                <img src="img/icon_twitter.png"/>
+                <a href="">Follow Us on Twitter</a>
+            </li>
+            <li>
+                <img src="img/icon_google.png"/>
+                <a href="">Goggle+</a>
+            </li>
+        </ul>
+    </section>
 </div>
 
 </body>
